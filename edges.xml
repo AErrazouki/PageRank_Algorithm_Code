@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graph>
+    <node>
+        <id>B</id>
+        <neighbors>C</neighbors>
+    </node>
+    <node>
+        <id>C</id>
+        <neighbors>B</neighbors>
+    </node>
+    <node>
+        <id>D</id>
+        <neighbors>A B</neighbors>
+    </node>
+    <node>
+        <id>E</id>
+        <neighbors>B D F</neighbors>
+    </node>
+    <node>
+        <id>F</id>
+        <neighbors>B E</neighbors>
+    </node>
+    <node>
+        <id>G</id>
+        <neighbors>B E</neighbors>
+    </node>
+    <node>
+        <id>H</id>
+        <neighbors>B E</neighbors>
+    </node>
+    <node>
+        <id>I</id>
+        <neighbors>B E</neighbors>
+    </node>
+    <node>
+        <id>L</id>
+        <neighbors>E</neighbors>
+    </node>
+    <node>
+        <id>M</id>
+        <neighbors>E</neighbors>
+    </node>
+</graph>
+
